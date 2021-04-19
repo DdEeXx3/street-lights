@@ -1,0 +1,74 @@
+.header {
+  width: 50vw;
+  height: 10vh;
+  background: white;
+  margin-top: 5vh;
+  margin-left: 5vw;
+  border-radius: 4vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-shadow: 1vw 1vh 3vw rgba(131, 131, 131, 0.5);
+          box-shadow: 1vw 1vh 3vw rgba(131, 131, 131, 0.5);
+  font-weight: 700;
+  font-size: 2.1vmax;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.data .chart {
+  width: 50vw;
+  height: 80vh;
+  background: white;
+  margin: 3vh;
+  border-radius: 4vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.data .details {
+  width: 50vw;
+  height: 80vh;
+  background: white;
+  margin: 3vh;
+  border-radius: 4vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.data .details .header-details {
+  font-size: 2vmax;
+  font-weight: 500;
+  margin-top: 2vh;
+}
+/*# sourceMappingURL=ComparisionRaport.css.map */

@@ -1,0 +1,52 @@
+.header{
+    width: 50vw;
+    height: 10vh;
+    background: white;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    border-radius: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 1vw 1vh 3vw rgba(131, 131, 131, 0.5);
+    font-weight: 700;
+    font-size: 2.1vmax;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.data{
+    // margin: 3vh;
+    display: flex;
+    flex-direction: row;
+    .chart{
+        width: 50vw;
+        height: 80vh;
+        background: white;
+        margin: 3vh;
+        border-radius: 4vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+.details{
+    width: 50vw;
+    height: 80vh;
+    background: white;
+    margin: 3vh;
+    border-radius: 4vw;
+    // display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .header-details{
+        font-size: 2vmax;
+        font-weight: 500;
+        margin-top: 2vh;
+    }
+}
+}
+
